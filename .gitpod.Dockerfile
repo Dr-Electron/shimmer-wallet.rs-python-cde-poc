@@ -6,7 +6,8 @@ RUN sudo install-packages expect
 RUN wget -c https://github.com/iotaledger/cli-wallet/releases/download/v1.0.0-rc.2/wallet-linux -O ~/.local/bin/wallet
 RUN chmod +x ~/.local/bin/wallet
 
-COPY --chown=gitpod scripts scripts
+RUN git clone -b add/docker-file --single-branch https://github.com/Dr-Electron/shimmer-wallet.rs-python-cde-poc && \
+    cp shimmer-wallet.rs-python-cde-poc/scripts scripts && rm -rf shimmer-wallet.rs-python-cde-poc
 RUN chmod +x scripts/*.exp
 
 # Install python lib
