@@ -2,5 +2,5 @@ image:
   file: .gitpod.Dockerfile
 tasks:
   - name: Create and Fund wallet. On start show balance
-    init: ~/scripts/create_and_fund.exp
+    init: ~/scripts/create_and_fund.exp && sleep 5
     command: python main.py
