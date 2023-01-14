@@ -7,4 +7,4 @@ This is a PoC of trying to setup a CDE (Cloud development environment) for the S
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[gitpod-url]: https://gitpod.io/#hhttps://github.com/Dr-Electron/shimmer-wallet.rs-python-cde-poc
+[gitpod-url]: https://gitpod.io/#https://github.com/Dr-Electron/shimmer-wallet.rs-python-cde-poc
