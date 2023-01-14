@@ -3,3 +3,5 @@ image:
 tasks:
   - name: Create and Fund wallet
     init: ~/scripts/create_and_fund.exp
+  - name: Show Balance
+    command: python main.py
