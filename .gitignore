@@ -1,0 +1,5 @@
+# Ignore generated files and directories
+archive.log
+mnemonic.txt
+stardust-cli-wallet.stronghold
+stardust-cli-wallet-db
