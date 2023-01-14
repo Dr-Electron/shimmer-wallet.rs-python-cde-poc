@@ -1,7 +1,6 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - name: Create and Fund wallet
+  - name: Create and Fund wallet. On start show balance
     init: ~/scripts/create_and_fund.exp
-  - name: Show Balance
     command: python main.py
